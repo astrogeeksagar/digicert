@@ -1,0 +1,258 @@
+body{
+    margin:0;
+    padding:0;
+    background-position-x: 100%;
+    background-image: url(images/mountain.jpg);
+    background-size: cover;
+    /* background:#0c1022; */
+    
+}
+h1{
+    text-indent:700px;
+    /* text-align: center; */
+    color:bisque;
+    text-shadow: 2px;
+}
+h3{
+    color:rgb(73, 46, 10);
+    /* text-indent: 45px; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.box{
+    position:relative;
+    background:linear-gradient(to right, rgba(43, 43, 97, 0.377), rgba(112, 36, 74, 0.26));
+    border-style:solid;
+    border-radius: 15px;
+    width: 500px;
+    height:300px;
+    padding:100px;
+    margin-left: 20px;
+    display:flex;
+    content:normal;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+}
+.box2{
+    position:relative;
+    background:linear-gradient(to right, rgba(43, 43, 97, 0.377), rgba(112, 36, 74, 0.26));
+    border-style:solid;
+    border-radius: 15px;
+    width: 500px;
+    height:400px;
+    padding:100px;
+    margin-left: 450px;
+    display:flex;
+    content:normal;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+}
+.login{
+    position:relative;
+    background:linear-gradient(to right, rgba(43, 43, 97, 0.377), rgba(112, 36, 74, 0.26));
+    border-style:solid;
+    border-radius: 15px;
+    width: 300px;
+    height:200px;
+    padding:50px;
+    margin-left: 550px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow:hidden;
+}
+.login::after{
+    position:absolute;
+    content: '';
+    width:1000px;
+    height:1000px;
+    animation: animate 4s linear infinite;
+    animation-delay: -2s;
+    background-image: conic-gradient(transparent, transparent, transparent, red);
+}
+.login::before{
+    position:absolute;
+    content: '';
+    width:1000px;
+    height:1000px;
+    animation: animate 4s linear infinite;
+    background-image: conic-gradient(transparent, transparent, transparent, rgb(28, 0, 105));
+}
+.box::after{
+    position:absolute;
+    content: '';
+    width:1000px;
+    height:1000px;
+    animation: animate 4s linear infinite;
+    animation-delay: -2s;
+    background-image: conic-gradient(transparent, transparent, transparent, red);
+}
+.box::before{
+    position:absolute;
+    content: '';
+    width:1000px;
+    height:1000px;
+    animation: animate 4s linear infinite;
+    background-image: conic-gradient(transparent, transparent, transparent, rgb(28, 0, 105));
+}
+.box2::after{
+    position:absolute;
+    content: '';
+    width:1000px;
+    height:1000px;
+    animation: animate 4s linear infinite;
+    animation-delay: -2s;
+    background-image: conic-gradient(transparent, transparent, transparent, red);
+}
+.box2::before{
+    position:absolute;
+    content: '';
+    width:1000px;
+    height:1000px;
+    animation: animate 4s linear infinite;
+    background-image: conic-gradient(transparent, transparent, transparent, rgb(28, 0, 105));
+}
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg)
+    }
+}
+.box span {
+    position:absolute;
+    inset:5px;
+    border-radius:15px;
+    /* background:rgb(129, 160, 43); */
+    background:linear-gradient(to right, rgb(58, 145, 160), rgb(212, 226, 88));
+    z-index: 1;
+}
+.box2 span {
+    position:absolute;
+    inset:5px;
+    border-radius:15px;
+    /* background:rgb(129, 160, 43); */
+    background:linear-gradient(to right, rgb(58, 145, 160), rgb(212, 226, 88));
+    z-index: 1;
+}
+.login span {
+    position:absolute;
+    inset:5px;
+    border-radius:15px;
+    /* background:rgb(129, 160, 43); */
+    background:linear-gradient(to right, rgb(58, 145, 160), rgb(212, 226, 88));
+    z-index: 1;
+}
+select{
+    width:100px;
+    height:25px;
+    color:rgb(8, 8, 85);
+    border:2px;
+    border-style: solid;
+    border-radius: 10px;
+
+}
+input[type=text] {
+    color:rgb(45, 8, 114);
+    width:200px;
+    height:30px;
+    border:2px;
+    border-style: solid;
+    border-radius: 10px;
+    outline:none;
+    background-color: rgb(247, 250, 246);
+}
+textarea[name=text2] {
+    color:rgb(45, 8, 114);
+    text-anchor: start;
+    text-align: start;
+    width:200px;
+    height:100px;
+    border:2px;
+    border-style: solid;
+    border-radius: 10px;
+    outline:none;
+    background-color: rgb(247, 250, 246);
+}
+input[type=number] {
+    color:rgb(45, 8, 114);
+    width:200px;
+    height:30px;
+    border:2px;
+    outline:none;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgb(247, 250, 246);
+}
+input[type=password] {
+    color:rgb(45, 8, 114);
+    width:200px;
+    height:30px;
+    outline:none;
+    border:2px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgb(247, 250, 246);
+}
+input[type=checkbox] {
+    color:aqua;
+    background-color: blueviolet;
+    width:13px;
+    height:13px;
+    border:2px;
+    border-style: solid;
+    border-color: blue;
+}
+input[type=submit] {
+    color:rgb(114, 8, 8);
+    width:125px;
+    height:28px;
+    border:2px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgb(121, 216, 118);
+}
+input[type=button] {
+    color:rgb(233, 34, 34);
+    width:125px;
+    height:28px;
+    border:2px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgb(121, 216, 118);
+}
+input[type=reset] {
+    color:rgb(224, 255, 50);
+    width:125px;
+    height:28px;
+    border:2px;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgb(255, 0, 0);
+}
+
+p{
+    color:rgb(73, 46, 10);
+    font-family: Verdana;
+    font-size: 15px;
+}
+h6{
+    color:white;
+    font-size: 13px;
+}
+a{
+    outline-color: blueviolet;
+    color:rgb(255, 51, 0);
+    font-size: 15px;
+    font-family: Georgia;
+}
+h5{
+    margin-bottom: 100px;
+    padding:100px;
+    text-align: end;
+    z-index: 5px inherit;
+    font-size:15px;
+    font-family: Georgia;
+}

@@ -1,0 +1,90 @@
+
+<html>
+    <head>
+        <link rel="stylesheet" href="sagarstyle.css"/>
+</head>
+<body>
+</br>
+</br>
+<h1> Register </h1>
+    <br />
+    <center>
+    <div class="box">
+        <span>
+        </br>
+    </br>
+                <h3>Fill Your Details Below</h3>
+                <form action="orgreg.php" method="post" enctype="multipart/form-data">
+                    <table>
+                        <tr>
+                        <tr>
+                            <td>
+                                <p> School/College/Organization Name:</p>
+                            </td>
+                            <td> <input type="text" name="na" placeholder="College" required /> </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Office Mobile:</p>
+                            </td>
+                            <td> <input type="number" min="10" name="omob" placeholder="1234567890" required /> </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Password:</p>
+                            </td>
+                            <td> <input type="password" name="opwd" placeholder="Enter Your Password" required /> </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Office Email:</p>
+                            </td>
+                            <td> <input type="text" name="oeml" placeholder="college@gmail.com" /> </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Contact Person:</p>
+                            </td>
+                            <td> <input type="text" name="conp" placeholder="Contact Person" /> </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Contact Person Mobile:</p>
+                            </td>
+                            <td> <input type="number" name="cmob" placeholder="1234567890" required /> </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Contact Person Email:</p>
+                            </td>
+                            <td> <input type="text" name="ceml" placeholder="person@gmail.com" /> </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Requirement:</p>
+                            </td>
+                            <td> <select name="req" id="req">
+                                    <option value="Select">Select</option>
+                                    <option value="Certificate">Certificate</option>
+                                    <option value="Marksheet">Marksheet</option>
+                                    <option value="Both">Both</option>
+                        </tr>
+                        <tr>
+                        <td>
+                        <p>Additional Information:</p>
+                    </td>
+                    <td> <input type="text" name="cmnt" placeholder="Additional" /> </td>
+                </tr>
+                        </tr>
+                    </table>
+                    <br />
+                    <td>
+                        <input type="submit" value="Submit" />
+                        <input type="reset" value=" Clear" />
+                    </td>
+            
+        </span>
+    </div>
+</center>
+</body>
+    </html>
