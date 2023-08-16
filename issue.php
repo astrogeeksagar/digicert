@@ -18,8 +18,8 @@ if(!$con)
 $r = mysqli_query($con,$sql);
 
 $row=$r->fetch_assoc();
-
-	echo $row['StudentName'];
+//fe//fetch account 
+row['StudentName'];
 	echo $row['RollNu'];
 	echo $row['Course'];
 	echo $row['CourseType'];
